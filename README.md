@@ -17,8 +17,8 @@ This program is
 
 ## How to use
 - You connect sota  
-$ ssh pi@192.168.3.82  
-pi@192.168.3.82's password: raspberry  
+$ ssh pi@*******  
+pi@*******'s password: ******* 
 
 - move directory  
 $ cd SotaSample  
