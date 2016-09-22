@@ -13,9 +13,9 @@ public class WaitRun extends Thread{
 	CSotaMotion motion = new CSotaMotion(mem);
 
 	public void run() {
-		CPlayWave.PlayWave("my_name.wav");
+		CPlayWave.PlayWave("sound/my_name.wav");
 		CRobotUtil.wait(1000);
-		CPlayWave.PlayWave("sota.wav");
+		CPlayWave.PlayWave("sound/sota.wav");
 		CRobotUtil.wait(2000);
 
 //		pose.SetPose(new Byte[]{CSotaMotion.SV_L_SHOULDER,CSotaMotion.SV_R_SHOULDER}, 

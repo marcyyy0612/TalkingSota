@@ -85,9 +85,9 @@ public class SotaTalk {
 
 			while(true){
 				// speak "hello.wav"
-				CPlayWave.PlayWave("hello.wav");
+				CPlayWave.PlayWave("sound/hello.wav");
 				CRobotUtil.wait(2000);
-				CPlayWave.PlayWave("what_your_name.wav");
+				CPlayWave.PlayWave("sound/what_your_name.wav");
 				CRobotUtil.wait(2000);
 
 				// recoding voice
@@ -95,7 +95,7 @@ public class SotaTalk {
 				// CPlayWave.PlayWave_wait("sound/start_rec_test.wav");
 				CRecordMic mic = new CRecordMic();
 				mic.setFormat(16000, 16, 1);
-				mic.startRecording("name.wav",3000);
+				mic.startRecording("sound/name.wav",3000);
 				CRobotUtil.Log(TAG, "wait end");
 				mic.waitend();
 
@@ -202,9 +202,9 @@ public class SotaTalk {
 					motion.play(pose,1000);
 					motion.waitEndinterpAll();
 
-					CPlayWave.PlayWave("nice_meet_you.wav");
+					CPlayWave.PlayWave("sound/nice_meet_you.wav");
 					CRobotUtil.wait(1000);
-					CPlayWave.PlayWave("name_repeatkevin160.wav");
+					CPlayWave.PlayWave("sound/name_repeatkevin160.wav");
 
 					// 音声処理を終了
 					v.deallocate();

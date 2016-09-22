@@ -28,4 +28,17 @@ $ cd bin
 $ chmod +x *.sh
 
 - run  
-$ ./java_run.sh jp/vstone/masashi/SotaTalk
+$ ./java_run.sh jp/vstone/masashi/SotaTalk    
+  
+## Library dependency
+### setting by Sota
+If you want to add library, you need to add library into Sota.  
+Sota has library in "/home/vstone/lib".  
+I've already add library to need "TalkingSota".  
+
+### setting eclipse
+Open properties of SotaSample.  
+Select "Resource"->"Java Build Path"  
+<right tab> "Libraries"  
+Select "Add External JARs"  
+Add any library
