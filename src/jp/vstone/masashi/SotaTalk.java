@@ -39,7 +39,7 @@ public class SotaTalk {
 	public static final int BITS = 16; 
 	public static final int HZ = 48000; 
 	public static final int SECOND = 10; 
-	public static final String API_KEY = "AIzaSyC7B9-mNAnMV05C4m38DyczTiqCM1Iwdac";
+	public static final String API_KEY = "";
 	
 	public static int wait_flag = 0;
 
